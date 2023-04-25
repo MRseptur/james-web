@@ -1,0 +1,266 @@
+/* CSS Document */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Rowdies&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+header, body, p, h1, h2, h3, h4, h5, h6, blockquote, nav, ul, li, footer {
+	padding: 0%;
+	margin: 0%
+}
+body{
+	overflow-x: hidden;
+	background-color: #676B83;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+header  {
+/*    align-items: center;*/
+	background-color:  rgba(0,0,0,0.14);
+	background-color: rgba(0,0,0,0.28);
+	background-image: url("../images/fn-cosmicCliffs.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-origin: 4px 90px;
+	height: 350px;
+	background-size: 1990px;
+	border-bottom: groove rgba(251,253,254,1.00);
+}
+
+.ccl blockquote{
+	color: rgba(217,170,111,1.00);
+	text-shadow: -1.6px 4px 0px rgba(87,59,23,1.00);
+	font-size: 2.8em;
+	text-align: center;
+font-family: 'Rowdies', cursive;	 
+	position: relative;
+	top:22%;
+}
+
+
+ li, a {
+font-family: 'Rowdies', cursive;	 
+	 font-weight: 500;
+	font-size: 16px;
+	color: #EDF0F1;
+	text-decoration: none;
+	
+}
+
+.logo{
+	cursor: pointer;
+	
+}
+
+.top_nav_links{
+	list-style: none;
+}
+.top_nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+.top_nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.top_nav_links li a:hover {
+color: #0088A9;
+text-shadow: -1px 1px 2px rgba(0,6,10,0.70);
+}
+
+.ccl {
+	position: relative; 
+	bottom: 235px;
+	font-weight: 400;
+	font-size: 1.88em;
+	background-color: rgba(106,103,103,0.09);
+	text-shadow: 1px 1px 7px #000;
+}
+
+
+footer {
+	background-color: rgba(0,0,0,0.41);
+	height: 125px;
+	float: clear;
+}
+
+.bbl {
+	text-align: center;
+	color: #EDF0F1;
+	position: relative;
+	top:80px;
+	text-shadow: 0px 0px 30px #000
+}
+
+.botom_nav {
+	text-align: center;
+		float: clear;
+
+}
+
+
+
+/*////////////////////////////////////////////////////*/
+
+
+.neptune_picture {
+	margin-left: 30%;
+	border: outset 3.6px;
+	
+}
+
+.title_text {
+font-family: 'Rowdies', cursive;
+	font-size: 4.2em;
+	color: rgba(255,175,41,1.00);
+	margin-left: 5%;
+	text-shadow: -1px 2px 3px #000;
+
+}
+.title_text_tarantula {
+font-family: 'Rowdies', cursive;
+	font-size: 4.2em;
+	color: rgba(255,175,41,1.00);
+	margin-right: 6%;
+	text-shadow: -1px 2px 3px #000;
+   text-align: center;
+}
+
+.nep_pic {
+	font-family: 'Rowdies', cursive;
+	margin-left: 13.5%;
+	margin-top: 2.5%;
+    color: #00C9FA;
+	font-size: 2.4em;
+	text-shadow: -2px 1px 1px #00303C;
+	
+}
+
+.articel_two {
+	float: left;
+		padding-top: 2.5%;
+margin-left: 20px;
+		color: rgba(250,253,253,1.00);
+/*
+border: double 1px;
+	border-radius: 10px
+*/
+}
+
+.articel_one{
+	float: right;
+	width: 50%;
+	font-weight: 400;
+	color: rgba(250,253,253,1.00);
+	font-size: 1.1em;
+	padding-top: 2.5%;
+/*
+	border: double 1px;
+	border-radius: 10px
+*/
+}
+
+
+
+
+
+
+footer {
+	clear:both;
+}
+
+
+
+.qick-spac {
+	position: relative;
+	right: 50000%;
+}
+
+.mv_image {
+	margin-right: 90%;
+	border-radius: 5px;
+	position: relative;
+	bottom: 490px;
+}
+
+.index_text {
+	margin-top: 50px;
+}
+
+	
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+	margin-left: 20%
+}
+
+label {
+  margin-bottom: 0.1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+		margin-left: 20%
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
